@@ -1,3 +1,4 @@
+
 console.log("script running")
 document.querySelector('.options').style.display = 'none';
 document.querySelector('.signs').addEventListener("click", ()=>{
@@ -23,3 +24,5 @@ document.querySelector('.signs').addEventListener("click", ()=>{
         }, 300);
     }
 })
+
+

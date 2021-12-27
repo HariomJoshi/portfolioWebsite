@@ -15,6 +15,7 @@
     height: 200vh;
     position:fixed;
     transition: 0.3s ease-in-out;
+    box-shadow: 0 0 2rem 0;
 }
 
 .sidebar nav{
@@ -89,12 +90,18 @@
 .infocontainer{
     width: 75vw;
     height: 60vh;
+    box-shadow: 0 0 1rem 0 rgba(3, 3, 3, 0.2);
     margin: 20vh 5vw 20vh 19vw;
     background-color: aquamarine;
     display: flex;
     justify-content: space-around;
     border-radius: 30px;
     transition: 0.3s ease-in;
+}
+
+
+.infocontainer:hover{
+    box-shadow: 0 0 2rem 0;
 }
 
 .devInfo{
@@ -162,12 +169,14 @@
     margin: 10vh 5vw 10vh 19vw;
     border-radius: 50px;
     transition: 0.2s ease-in;
+    box-shadow: 0 0 1rem 0 rgba(3, 3, 3, 0.2);
 }
 
 .blogitem:hover{
     color: #ff7a59;
     border: #ff7a59 solid 1px;
     background:#fff;
+    box-shadow: 0 0 2rem 0;
 }
 
 .bloghead{
@@ -204,6 +213,7 @@
     margin: 10vh 5vw 10vh 19vw;
     border-radius: 50px;
     transition: 0.2s ease-in;
+    box-shadow: 0 0 1rem 0 rgba(3, 3, 3, 0.2);
 }
 
 
@@ -211,6 +221,7 @@
     color: #ff7a59;
     border: #ff7a59 solid 1px;
     background:#fff;
+    box-shadow: 0 0 2rem 0;
 }
 
 /* Items related to projects.html */
@@ -236,6 +247,7 @@
     margin: 10vh 5vw 10vh 19vw;
     border-radius: 50px;
     transition: 0.2s ease-in;
+    box-shadow: 0 0 1rem 0 rgba(3, 3, 3, 0.2);
 }
 .info{
     padding: 30px 0;
@@ -244,6 +256,7 @@
     color: #ff7a59;
     border: #ff7a59 solid 1px;
     background:#fff;
+    box-shadow: 0 0 2rem 0;
 }
 
 /* Items related to experience.html */
@@ -268,12 +281,14 @@
     margin: 10vh 5vw 10vh 19vw;
     border-radius: 50px;
     transition: 0.2s ease-in;
+    box-shadow: 0 0 1rem 0 rgba(3, 3, 3, 0.2);
 }
 
 .experience:hover{
     color: #ff7a59;
     border: #ff7a59 solid 1px;
     background:#fff;
+    box-shadow: 0 0 2rem 0;
 }
 
 .experience li{
