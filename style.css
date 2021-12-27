@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Roboto+Slab:wght@300&family=Shizuru&display=swap');
+
+
+/*the below css code applies to all the classes*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Items related to index.html */
+.sidebar{
+    background-color: rgb(194, 102, 66);
+    width: 200px;
+    font-family: 'Roboto Slab', serif;
+    height: 200vh;
+    position:fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar nav{
+    padding: 40px 23px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 13px;
+    margin : 40px 10px;
+    font-size: 20px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.sidebar nav li a:hover{
+    color: antiquewhite;
+}
+
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+    /* background-image: "bgImage.jpg"; */
+}
+
+
+.contactme{
+     font-size: 20px;
+     font-family: 'Roboto Slab', serif;
+     border-radius: 20px;
+     font-weight: 400;
+}
+
+/* To create the bounce effect */
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+}
+
+/* applying the bounce effect */
+
+.contactme:hover {
+    animation: bounce 0.8s;
+    background-color:rgb(20, 45, 78);
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    width: 75vw;
+    height: 60vh;
+    margin: 20vh 5vw 20vh 19vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    transition: 0.3s ease-in;
+}
+
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.devPic img{
+    border-radius: 50%;
+    height: 56vh;
+    width: 20vw;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+}
+
+.hello{
+    padding: 20px 0;
+
+}
+
+.name{
+    font-family: 'Pushster', cursive;
+    padding: 10px 0;
+
+}
+
+.about{
+    padding: 10px 0;
+
+}
+
+.more-about-me{
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 0;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(96, 151, 233);
+    cursor: pointer;
+    color: aqua;
+    font-weight: 700;
+    
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: rgb(96, 151, 233);
+}
+
+.bloghead{
+    font-family: 'Pushster', cursive;
+}
+
+/* Items related to blog.html */
+
+.blogitem{
+    height: 90px;
+    width: 70vw;
+    background-color: bisque;
+    padding: 50px;
+    margin: 10vh 5vw 10vh 19vw;
+    border-radius: 50px;
+    transition: 0.2s ease-in;
+}
+
+.blogitem:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
+.bloghead{
+    margin: 10vh 5vw 10vh 19vw;
+    color: darkslategray;
+    font-family: 'Pushster', cursive;
+    transition: 0.2s ease-in;
+}
+
+.blogcontainer a{
+    color: rgb(114, 69, 17);
+    text-decoration: none;
+}
+
+/* Items related to education.html */
+
+.educationContainer a{
+    color: rgb(114, 69, 17);
+    text-decoration: none;
+}
+
+.myEducation{
+    margin: 10vh 5vw 10vh 19vw;
+    color: darkslategray;
+    font-family: 'Pushster', cursive;
+    transition: 0.2s ease-in;
+}
+
+.institute{
+    height: 135px;
+    width: 40vw;
+    background-color: bisque;
+    padding: 50px;
+    margin: 10vh 5vw 10vh 19vw;
+    border-radius: 50px;
+    transition: 0.2s ease-in;
+}
+
+
+.institute:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
+/* Items related to projects.html */
+
+.projectsContainer a{
+    color: rgb(114, 69, 17);
+    text-decoration: none;
+}
+
+.projecthead{
+    margin: 10vh 5vw 10vh 19vw;
+    color: darkslategray;
+    font-family: 'Pushster', cursive;
+    transition: 0.2s ease-in;
+
+}
+
+.project{
+    height: 40vh;
+    width: 40vw;
+    background-color: bisque;
+    padding: 50px;
+    margin: 10vh 5vw 10vh 19vw;
+    border-radius: 50px;
+    transition: 0.2s ease-in;
+}
+.info{
+    padding: 30px 0;
+}
+.project:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
+/* Items related to experience.html */
+
+.experienceContainer a{
+    color: rgb(114, 69, 17);
+    text-decoration: none;
+}
+
+.experiencehead{
+    margin: 10vh 5vw 10vh 19vw;
+    color: darkslategray;
+    font-family: 'Pushster', cursive;
+    transition: 0.2s ease-in;
+}
+
+.experience{
+    height: 155px;
+    width: 35vw;
+    background-color: bisque;
+    padding: 50px;
+    margin: 10vh 5vw 10vh 19vw;
+    border-radius: 50px;
+    transition: 0.2s ease-in;
+}
+
+.experience:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+
+.experience li{
+    margin-top: 10px;
+}
+
+/* sidebar closing and opening items */
+
+.signs{
+    position: fixed;
+    cursor: pointer;
+    /* height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: row; */
+    margin: 10px;
+}
+
+.cross{
+    position:fixed;
+    height: 20px;
+    width: 20px;
+    margin-left: 140px;
+    border: black;
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cross:hover{
+    background-color: rgb(187, 83, 23);
+}
+
+.options{
+    position:fixed;
+    height: 20px;
+    width: 20px;
+    border: black;
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.options:hover{
+    background-color: rgb(187, 83, 23);
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+
+@media (max-width: 1000px) {
+    
+}
