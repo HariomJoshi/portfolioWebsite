@@ -341,6 +341,36 @@
     position: absolute;
 }
 
+
+.headingcontainer{
+    height: 80vh;
+    width: 25vh;
+    background-color: bisque;
+}
+
+/* Blogs */
+
+.blogsContainer{
+    color: rgb(114, 69, 17);
+    text-decoration: none;
+    background-color: bisque;
+    height: 20vh;
+    width: 45vw;
+    margin:10vh 5vw 10vh 19vw;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+}
+
+.blogsHead{
+    margin: 10vh 5vw 10vh 5vw;
+    padding: 30px;
+    color: darkslategray;
+    font-family: 'Pushster', cursive;
+    transition: 0.2s ease-in;
+    /* padding: 40px; */
+}
+
+
 @media (max-width: 1000px) {
     
 }
